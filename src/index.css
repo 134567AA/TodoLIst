@@ -1,13 +1,18 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  width: 600px;
+  height: 600px;
+  margin: 20px auto 0;
+  font-family: 'LeeSeoyun',sans-serif;
+
+
+}
+  @font-face {
+    font-family: 'LeeSeoyun';
+    src: url(../public//font//LeeSeoyun.ttf) format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.card{
+  border: 1px solid #999;
 }
